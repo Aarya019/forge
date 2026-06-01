@@ -12,8 +12,8 @@ export default function manifest(): MetadataRoute.Manifest {
     theme_color: '#f97316',
     categories: ['health', 'fitness', 'lifestyle'],
     icons: [
-      { src: '/icon.png', sizes: '192x192', type: 'image/png', purpose: 'any' },
-      { src: '/icon.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' },
+      { src: '/icon', sizes: '192x192', type: 'image/png', purpose: 'any' },
+      { src: '/icon', sizes: '192x192', type: 'image/png', purpose: 'maskable' },
     ],
   }
 }
